@@ -27,7 +27,6 @@ const Front = () => {
           </button>
         </div>
       </div>
-      {/* <div className="bg-bgFront bg-cover bg-no-repeat opacity-40 hidden md:block md:w-[40%]"></div> */}
     </div>
   );
 };
