@@ -1,0 +1,49 @@
+{
+    "resources": [
+      {
+        "title": "Team ElSOC",
+        "imageUrl": "/images/team-elsoc-1.jpg"
+      },
+      {
+        "title": "Intern Talk",
+        "imageUrl": "/images/intern-talk-1.jpg"
+      },
+      {
+        "title": "Intern Talk",
+        "imageUrl": "/images/intern-talk-2.jpg"
+      },
+      {
+        "title": "Team ElSOC",
+        "imageUrl": "/images/team-elsoc-2.jpg"
+      },
+      {
+        "title": "Intern Talk",
+        "imageUrl": "/images/intern-talk-3.jpg"
+      },
+      {
+        "title": "Placement Talk",
+        "imageUrl": "/images/placement-talk-1.jpg"
+      },
+      {
+        "title": "Teacher's Day",
+        "imageUrl": "/images/teachers-day-1.jpg"
+      },
+      {
+        "title": "Teacher's Day",
+        "imageUrl": "/images/teachers-day-2.jpg"
+      },
+      {
+        "title": "Teacher's Day",
+        "imageUrl": "/images/teachers-day-3.jpg"
+      },
+      {
+        "title": "Intern Talk",
+        "imageUrl": "/images/intern-talk-4.jpg"
+      },
+      {
+        "title": "Intern Talk",
+        "imageUrl": "/images/intern-talk-5.jpg"
+      }
+    ]
+  }
+  

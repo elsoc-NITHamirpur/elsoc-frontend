@@ -1,0 +1,40 @@
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+
+  .title-text h1 {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .title-text h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #13c0ff;
+  }
+  .title-text h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 5px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: white;
+  }
+  
