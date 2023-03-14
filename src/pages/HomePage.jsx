@@ -1,19 +1,21 @@
-import React from "react";
-import AboutUs from "../components/HomepageComponents/AboutUs";
-import Faq from "../components/HomepageComponents/Faq";
-import Home from "../components/HomepageComponents/Home";
-import Gallary from "../components/HomepageComponents/Gallary";
+import React, { Fragment } from "react";
+import AboutUs from "../components/Home/AboutUs";
+import Faq from "../components/Home/Faq";
+import Home from "../components/Home/Home";
+import Gallary from "../components/Home/Gallary";
 import Background from "../components/Background/Background";
 
 const HomePage = () => {
   return (
-    <>
+    <Fragment>
       <Background />
       <Home />
-      <AboutUs />
-      <Gallary />
-      <Faq />
-    </>
+      <div className="bg-black bg-opacity-70">
+        <AboutUs />
+        <Gallary />
+        <Faq />
+      </div>
+    </Fragment>
   );
 };
 

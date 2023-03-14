@@ -4,22 +4,22 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Navbar from './components/BasicComponents/Navbar';
-import Footer from './components/BasicComponents/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
 import About from './pages/About-us';
 import Semester from './pages/Semester';
 import NotesPage from './pages/StudyMaterialPage';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
-import Background2 from './components/Background/Background2';
+import Background2 from './components/Background/Background2(not-used)';
 
 function App() {
   return (
     <>
+      <Router>
       <Navbar/>
       <Background2 />
-      <Router>
         <Routes>
           <Route exact path="/" element={<HomePage/>}/>
           <Route path="/about" element={<About/>}/>
