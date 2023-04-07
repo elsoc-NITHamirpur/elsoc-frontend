@@ -4,8 +4,10 @@ import Faq from "../components/Home/Faq";
 import Home from "../components/Home/Home";
 import Gallary from "../components/Home/Gallary";
 import Background from "../components/Background/Background";
+import { TabChange } from "../utils/dynamic-title-function.js"
 
 const HomePage = () => {
+  TabChange('Elsoc | NIT Hamirpur')
   return (
     <Fragment>
       <Background />

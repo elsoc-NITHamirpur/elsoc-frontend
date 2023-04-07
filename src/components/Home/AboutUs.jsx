@@ -11,7 +11,7 @@ const AboutUs = ({ref}) => {
         initial={{ opacity: 0, y:100 }}
         transition={{ ease: "easeOut", duration: 2 }}
         whileInView={{opacity:1, y:0}}
-        className='p-8 text-xl text-white text-center rounded-[20px]'>
+        className='p-8 text-xl md:text-2xl text-white text-center rounded-[20px]'>
           ELSOC stands for "Electrical Society", which is administered by the Department of Electrical Engineering, NIT Hamirpur. The mission of ELSOC is to enlighten, engage, and enhance the technical and social diversity of electrical engineers. We at ELSOC conduct regular workshops on programming fundamentals, advanced electrical topics, and cutting-edge technologies. In addition, we focus on the academic pursuits of students from all departments. We intend to provide budding engineers with a venue to hone and expand their practical skills.
           </motion.div>
       </div> 

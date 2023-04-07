@@ -7,9 +7,10 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 w-full flex items-center justify-between flex-wrap backdrop-blur-sm px-4 md:px-16 py-3 z-20">
-      <div className="text-2xl font-semibold items-center flex-shrink-0 text-white ml-2">
+      <Link to="/" className="text-2xl font-semibold items-center inline-flex flex-shrink-0 text-white ml-2">
+        <img alt="elsoc" className="mr-2" src="/logo/elsoc_logo.svg" width="30px"/>
         ELSOC
-      </div>
+      </Link>
 
       {/* Button for small screen */}
       <div className="block lg:hidden">
@@ -35,7 +36,7 @@ const Navbar = () => {
           <Link
             key={id}
             to={path}
-            className="block mt-4 hover:font-black hover:drop-shadow-4xl hover:transition-all lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            className="block text-xl mt-4 hover:font-black hover:drop-shadow-4xl hover:transition-all lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             {title}
           </Link>

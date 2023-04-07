@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <Fragment>
       <footer className="bg-slate-900 bg-opacity-70 text-center">
-        <div className="p-4 md:p-20 m-0">
+        <div className="p-2 sm:p-4 md:p-20 m-0">
           <div className="grid lg:grid-cols-2 gap-4">
             <div className="block p-6 rounded-lg shadow-lg max-w-md">
               <h2 className="text-4xl md:text-6xl pb-6 text-left text-white font-semibold underline decoration-4 underline-offset-8">

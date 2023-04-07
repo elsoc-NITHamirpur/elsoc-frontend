@@ -1,8 +1,10 @@
 import React, { Fragment } from "react";
 import { eventItems } from "../data/events/eventItems";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { TabChange } from "../utils/dynamic-title-function.js"
 
 const Events = () => {
+  TabChange('ELSOC | events')
   return (
     <Fragment>
       <div className="py-40 px-4 md:px-40 flex flex-col items-center gap-20 md:gap-40">
@@ -15,7 +17,7 @@ const Events = () => {
           >
             <div className="w-full rounded-md overflow-hidden">
               <LazyLoadImage
-                className="w-[100%] h-[42vh]"
+                className="aspect-video"
                 src={imageUrl}
                 alt="events"
               />
