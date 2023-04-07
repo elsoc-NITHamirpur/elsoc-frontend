@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { data } from "../../data/Navbar/navbarData";
+import logo from '../../assets/logo/elsoc_logo.svg'
 
 const Navbar = () => {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -8,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full flex items-center justify-between flex-wrap backdrop-blur-sm px-4 md:px-16 py-3 z-20">
       <Link to="/" className="text-2xl font-semibold items-center inline-flex flex-shrink-0 text-white ml-2">
-        <img alt="elsoc" className="mr-2" src="/logo/elsoc_logo.svg" width="30px"/>
+        <img alt="elsoc" className="mr-2" src={logo} width="30px"/>
         ELSOC
       </Link>
 
