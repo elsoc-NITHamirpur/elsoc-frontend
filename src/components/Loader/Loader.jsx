@@ -1,5 +1,4 @@
 import React from 'react'
-import Lottie from 'lottie-react'
 import loaderGif from '../../assets/loader.gif'
 
 const Loader = () => {
